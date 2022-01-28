@@ -1,0 +1,339 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+p{
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 30px;
+}
+
+h1{
+    font-size: 45px;
+    font-weight: 300;
+}
+nav{
+    display: flex;
+    height: 120px;
+    width: 100%;
+    background-color: #fff !important;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px 0 100px;
+    flex-wrap: wrap;
+}
+nav ul{
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    margin-bottom: 0;
+}
+nav ul li{
+    margin: 0 5px;
+}
+nav ul li a{
+    color: #a65c6b;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 8px 15px;
+    
+    letter-spacing: 1px;
+    border-bottom: 2px solid transparent;
+    transition: all 0.3 ease;
+}
+.logo{
+    width:200px;
+}
+nav ul li a.active,
+nav ul li a:hover{
+    border-color: #a65c6b;
+    color: #a65c6b;
+}
+nav .menu-btn i{
+    color: #000;
+    font-size: 22px;
+    cursor: pointer;
+    display: none;
+}
+input[type="checkbox"]{
+    display: none;
+}
+nav{
+    display: flex;
+    max-height: 120px;
+    max-width: 100%;
+    background-color: #fff;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px 0 100px;
+    flex-wrap: wrap;
+}
+.list-item ul{
+    margin-top: 20px;
+    display: inline-flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+}
+.list-item ul li{
+    margin: 0 19px;
+}
+.list-item ul li a{
+    text-decoration: none;
+    font-size: 32px;
+    font-weight: 500;
+    padding: 8px 15px;
+    letter-spacing: 1px;
+    color: #000;
+}
+.logo img{
+    width: 281px;
+    height: 90px;
+}
+.mainbanner .carousel-inner .overlay{
+    background-image: linear-gradient(
+        to bottom,
+        rgba(166, 92, 107, 0) 10%,
+        rgba(166, 92, 107, 0) 60%,
+        rgba(83, 22, 43, 1) 100%
+    );
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width:100%;
+    height:100%;
+    z-index: 1;
+}
+.mainbanner .carousel-caption{
+    z-index: 2;
+}
+.carousel-item img{
+    width: 100%;
+}
+
+.about p{
+    letter-spacing: 1px;
+    padding: 10px 0;
+    line-height: 30px;
+}
+
+.om-section{
+    padding: 6rem 0;
+}
+
+.om-about-section{
+    padding: 2rem 0 0 0;
+}
+
+.services{
+    background-image: url(../img/bg1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    background-position: center;
+    position: relative;
+    display: flex;
+}
+.services .box{
+    max-width: 100%;
+    width:600px;
+    border: 20px solid #fff;
+    padding: 56px 0 48px 0;
+    position: relative;
+    background: rgba(255,255,255,.9);
+    margin: auto;
+}
+
+.services{
+    font-weight: 500;
+}
+
+.product_item img{
+   padding: 0;
+}
+.product_item p{
+    letter-spacing: 1px;
+    
+}
+
+.testimonial{
+    background-image: url(../img/testimonial.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.testboder_text{
+    border: 20px solid #fff;
+    background: rgba(255,255,255,.9);
+    padding: 60px 0;
+    width:1000px;
+    margin: auto;
+}
+
+.testimonial .carousel-inner{
+    padding: 0 8rem;
+}
+
+.testimonial span{
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.footer{
+    background-color: #cccccc;
+    padding: 50px;
+
+    position: relative;
+}
+
+footer
+
+.icon a{
+    padding: 5px;
+}
+.icon a .bi{
+     width: 40px;
+     height: 40px;
+     border: 2px solid #000;
+     border-radius: 50%;
+     display: inline-block;
+     padding: 6px;
+     text-align: center;
+     color: #000;
+}
+
+.footer .list-item ul li a{
+    font-size: 16px !important;
+    padding: 20px;
+}
+.footer h2{
+    font-size: 18px;
+    font-weight: 500;
+}
+.mob_head {
+    margin-top: 20px;
+}
+
+.list-item ul li a{
+    padding-left: 79px;
+}
+.footer_icon a .bi{
+    width: 40px;
+    height: 40px;
+    border: 2px solid #000;
+    border-radius: 50%;
+    padding: 6px;
+    background-color: #fff;
+    text-align: center;
+    display: inline-block;
+    color: #000;
+    bottom: 50px;
+}
+.footer_icon{
+    position: fixed;
+    float: right;
+    right: 10px;
+    bottom: 20px;
+    z-index: 1000;
+}
+.footer-title{
+    font-size:24px
+}
+
+/* About us */
+.about_heading{
+    padding-top: 20px;
+}
+.para_about p{
+    margin: 10px;
+}
+.para_about span{
+    color: #999999;
+}
+
+.heading_text_span {
+    display: block;
+}
+.about_heading span{
+    font-weight: 100;
+}
+.para_vision{
+    padding: 10px 10px 0 0 !important;
+}
+/* About us end */
+
+.ullist{
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 30px;
+}
+
+.product-offer-title {
+    font-size: 16px;
+    text-align: center;
+    font-weight: 600;
+    padding: 10px 0;
+}
+
+@media (max-width:1000px){
+    nav{
+        padding: 0 40px 0px 50px;
+    }
+}
+@media (max-width:920px){
+    nav .menu-btn i{
+        display: block;
+    }
+    #click:Checked ~ .menu-btn i:before{
+        content: '\f00d';
+        color: #999966 !important;
+    }
+
+    nav ul{
+        position: fixed;
+        top: 100px;
+        left: -100%;
+        background: #fff;
+        height: 100vh;
+        width: 100%;
+        text-align: center;
+        z-index: 10;
+        display: block;
+        transition: all 0.3s ease;
+    }
+    #click:checked ~ ul{
+        left: 0px;
+    }
+    nav ul li{
+        width: 100%;
+        margin: 40px 0;
+    }
+    nav ul li a{
+        width: 100%;
+        margin-left: -100%;
+        display: block;
+        font-size: 20px;
+        transition: 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    }
+    #click:checked ~ ul li a{
+        margin-left: 0px;
+    }
+}
+
+
+
+
+.tea_img{
+    background-image: url(../img/company.png);
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: left;
+   
+}
